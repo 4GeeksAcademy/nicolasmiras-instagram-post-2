@@ -1,10 +1,12 @@
 body{
     font-family: "Roboto", sans-;
-    margin: 0% auto;
+    background-color: black;
+    margin: 10% auto;
+    
 }
 
 .post{
-    background-color: lightblue;
+    background-color: white;
     width: 500px;
     margin: 0% auto;
 }
@@ -47,4 +49,25 @@ img {
     
 }
 
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.post-icons-left{
+    font-size: 30px;
+
+}
+
+.post-icons-right{
+    font-size: 30px;
+
+}
+
+.post-body-text {
+    width: 480px;
+    padding-bottom: 15px;
+    margin: 10px;
+}
 
